@@ -30,11 +30,11 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: Setup Java
-      uses: actions/setup-java@v4
-      with:
-        distribution: temurin
-        java-version: ${{ inputs.java_version }}
+    # - name: Setup Java
+    #   uses: actions/setup-java@v4
+    #   with:
+    #     distribution: temurin
+    #     java-version: ${{ inputs.java_version }}
 
     - name: Write keystore file from content
       if: inputs.keystore
