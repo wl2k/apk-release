@@ -1,5 +1,5 @@
-name: Release APK
-description: Build a signed release APK of your Android application
+name: ReleaseAPK
+description: Build a signed, release-ready APK.
 
 branding:
   icon: cpu
